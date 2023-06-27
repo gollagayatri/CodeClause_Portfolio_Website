@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Portfolio.css">
+    <title>portfolio website</title>
+    <link rel="stylesheet" href="test.css">
+</head>
+<style> 
+</style>
+<body>
+    <nav>
+        <div class="logo">
+            <p>GOLLA SAI GAYATRI</p>
+        </div>
+        <ul>
+            <li><a href=""class="active">Home</a></li>
+            <li><a href="">About Me</a></li>
+            <li><a href="">Services</a></li>
+            <li><a href="">Portfolio</a></li>
+            <li><a href="">Contact</a></li>
+        </ul>
+        <button type="button" onclick="toggleBtn()" id="btn"><span></span></button>
+    </nav>
+        <div>
+            <h1>Welcome to My website</h1>
+        </div>
+        <div class="wrapper">
+            <div class="static-txt">I'm a</div>
+            <ul class="dynamic-txts">
+            <li><span>YouTuber</span></li>
+            <li><span>Designer</span></li>
+            <li><span>Developer</span></li>
+            <li><span>Freelancer</span></li>
+            </ul>
+        </div>
+        <div class="social-icon">
+            <ul>
+                <li><a href="#" target="_blank"><i class="fab fa-facebook"></i></a> </li>
+                <li><a href="#" target="_blank"><i class="fab fa-instagram"></i></a> </li>
+                <li><a href="#" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+                <li><a href="#" target="_blank"><i class="fab fa-github"></i></a></li>
+            </ul>
+        </div>
+        <script src="https://kit.fontawesome.com/ae61999827.js" crossorigin="anonymous"></script>
+        </div>
+        <div class="container">
+        <button class="btn-1">View Work</button>
+        <button class="btn-2">Hire Me</button>
+     </div>
+     </div>
+     <section class="about">
+        <div class="main">
+            <img src="https://images.pexels.com/photos/4061165/pexels-photo-4061165.jpeg" height="400" width="300">
+            <div class="about-text">
+               <h2>About Me</h2>
+               <h5>Developer<span> & Designer</span></h5>
+               <p>I'm a third year student in computer science and engineering. 
+                I like to learn new things through practice and take up a challenge. 
+                I consider my self a responsible and orderly person. I am looking forward
+                 for my first work experience. My hobbies include programming ,reading a books
+                  like hyper focus by Chris Bailey(how to work less and Achieve More) and  learn 
+                  new things.</p>
+                   <button class="btn-3">read more</button>
+            </div>
+        </div>
+    </div>
+     </section>
+     <section class="Service">
+        <div class="max-width">
+            <h4>Services</h4>
+            <div class="content">
+                <div class="card">
+                    <div class="box">
+                        <i class="fa fa-paint-brush"></i>
+                            <h3>web Development</h3>
+                            <p>In web development I create, build, and maintaining of websites.
+                                 It includes aspects such as web design, web publishing, web programming, and database management.
+                             </p>   
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <i class="fa fa-code"></i>
+                            <h3>Data Engineering</h3>
+                            <p>Data Engineering is the process of organizing, managing, and analyzing large amounts of data.
+                                 It's a key component in the world of data science
+                             </p>   
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <i class="fa fa-mobile"></i>
+                            <h3>App Development</h3>
+                            <p>It has special technical requirements that allow the apps to run on Android and iOS platforms.
+                                 App development software makes it easy to create and deploy apps for any mobile platform using very little technical expertise and IT assistance.
+                            </p>   
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <i class="fa fa-line-chart"></i>
+                            <h3>Data Analytics</h3>
+                            <p>Data analysts prepare, process, and analyze data to help inform business decisions. 
+                                They create visualizations to share their findings with stakeholders and provide recommendations
+                             </p>   
+                    </div>
+                </div>
+            </div>
+        </div>
+     </section>
+     <section class="contact">
+        <div class="contact-form">
+            <h1>Contact<span>Us</span></h1>
+            <p>I am available for Freelancer work.Contact with me via phone:12345678
+                 or email:admin@example.com</p>
+                 <form action="">
+                    <input type="" placeholder="Your Name" required>
+                    <input type="email" name="email" id="" placeholder="E-mail" required>
+                    <input type="" placeholder="Write a Subject" required>
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"required>
+                    </textarea>
+                    <input type="submit" name="" value="submit" class="btn">
+                    <a href="./code.png" download='image' class="download-btn">Download
+                        <i class="fa fa-download"></i>
+                    </a>
+                 </form>
+        </div>
+        <div class="contact-img">
+            <img src="https://images.pexels.com/photos/4061165/pexels-photo-4061165.jpeg" height="400" width="300">"
+        </div>
+     </section>
+    <footer>
+        <div class="center">
+            copyright &copy;www.portfolio.com!
+        </div>
+    </footer>
+     <script>
+        var btn =document.getElementById("btn");
+        var light=document.getElementById("light");
+           
+            function toogleBtn(){
+                btn.classList.toggle("active");
+                light.classList.toggle("on");
+            }
+    </script>
+    
+</body>
+</html>
